@@ -886,13 +886,19 @@ header .main_menu .nav-item.active a.nav-link {
     padding: 2rem 0 4rem;
     background-color: #ffffff;
 }
-
+.logo a {
+    color: rgb(230, 228, 228);
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 10px;
+}
 .logo img {
     max-width: 324px;
     max-width: 100%;
     margin: auto;
     text-align: center;
     display: block;
+    padding: 5px;
 }
 
 .navbar-nav {
@@ -1112,7 +1118,7 @@ header .main_menu .nav-item.active a.nav-link {
 -------------------------------------------------------------------*/
 
 .img-responsive {
-    max-width: 100%;
+    max-width: 100px;
 }
 
 .padding_bottom_0 {
